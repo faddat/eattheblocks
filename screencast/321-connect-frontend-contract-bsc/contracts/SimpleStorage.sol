@@ -1,7 +1,10 @@
 pragma solidity ^0.8.0;
 
+
+// This is the whole airdrop.  The string is their dig wallet.
+
 contract SimpleStorage {
-  uint public data;
+  string public data;
 
   function updateData(uint _data) external {
     data = _data;
